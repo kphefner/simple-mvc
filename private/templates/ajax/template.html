@@ -1,0 +1,28 @@
+<?php
+/**
+ * AJAX Template.  Bare-bones template for content to be returned via AJAX call.
+ * 
+ * While most AJAX functions return JSON for further processing by JavaScript,
+ * sometimes we need to generate HTML content that will be "plugged in" to an element
+ * on the originating page.  Asynchronous HTML and HTTP (AHAH) is a subset of AJAX,
+ * and to make it easier to generate output for these calls, markup can be defined
+ * in a view and fed through this empty template.
+ *
+ * @author Kenny Hefner
+ * @version 1.0
+ * 
+ * @copyright AdFX, Inc., 19 Sep, 2020
+ * @package template
+ **/
+
+/**
+ * Define DocBlock
+ */
+
+// echo the view markup
+echo $this->markup;
+
+// include styles and scripts
+$this->scripts();
+$this->styles();
+?>

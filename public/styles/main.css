@@ -1,0 +1,15 @@
+button.show-spinner .spinner-border {
+	display: inline-block;
+	margin-left: .5rem;
+	margin-right: .5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+span.show-spinner .spinner-border {
+	display: inline-block;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+button .spinner-border, span .spinner-border {
+	display: none;
+}
