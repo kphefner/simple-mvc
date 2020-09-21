@@ -19,7 +19,7 @@ date_default_timezone_set('America/New_York');
 $CONFIG = array();
 
 // Object Server
-$CONFIG['obj'] = "https://obj.audioeye.com";
+$CONFIG['obj'] = "https://localapi";
 
 // Portal Server
 $CONFIG['portal_url'] = 'localhost';
