@@ -14,6 +14,7 @@ Open /private/config.php and modify to meet your needs.
 
 Launch a dev PHP server FROM INSIDE the /public folder, i.e.,
 cd /yourcomputer/sites/simple-mvc/public
+
 php -S 127.0.0.7:8080
 
 *note: for cookie functionality to work locally, 127.0.0.1:8080 must be mapped to a domain name in the machine's host file.
