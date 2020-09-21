@@ -8,8 +8,10 @@ Uses .htaccess to manage the controller actions
 
 ## Installation
 
-Copy the repository to a directory on an apache/php enabled machine
-Open /private/config.php and modify to meet your needs
+Copy the repository to a directory on an apache/php enabled machine.
+
+Open /private/config.php and modify to meet your needs.
+
 Launch a dev PHP server FROM INSIDE the /public folder, i.e.,
 cd /yourcomputer/sites/simple-mvc/public
 php -S 127.0.0.7:8080
@@ -20,6 +22,8 @@ For Mac, I recommend gasmask as a host file management app.
 ## Usage
 
 example: http://yourdomain.com/company/about maps to:
+
 	Module Controller: /private/modules/CompanyController.php
+	
 	Controller Method: aboutAction() {}
 
